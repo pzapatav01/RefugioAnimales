@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sour Gummy', cursive;
+}
+header {
+    background-color: #6ab04c;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #6ab04c;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-image: url('https://wallpapers.com/images/hd/charming-golden-retriever-puppy-desktop-fskiz4ofwqcqnmax.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.hero ul li{
+    margin: 0 10px;
+    backdrop-filter: blur(5px);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.container {
+    padding: 20px;
+}
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+.cta {
+    background-color: #6ab04c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta:hover {
+    background-color: #45a049;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.tarjeta:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.tarjeta img{
+    width: 100%;
+    border-radius: 5px;
+    max-width: 300px;
+    height: 200px;
+}
+
+.principalTarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 10px;
+    background: url("https://img.freepik.com/vector-gratis/diseno-patron-huellas-patas_23-2151099783.jpg");
+}
+
+.introduccion{
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.formulario{
+    padding: 0 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url("https://cdn.pixabay.com/photo/2024/02/22/16/57/wallpaper-8590441_1280.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.formulario form{
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulario button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #45a049;
+    color: white;
+    cursor: pointer;
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #45a049;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #6ab04c;
+}
+
+.detalle{
+    padding: 20px;
+    background: url("https://img.freepik.com/vector-gratis/diseno-patron-huellas-patas_23-2151099854.jpg");
+    height: 100vh   ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main .perfil img{
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+main .perfil h2{
+    margin: 10px;
+}
+
+.tabla table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla table, th, td{
+    border: 1px solid black;
+}
+
+.tabla th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
