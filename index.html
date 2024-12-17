@@ -1,33 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
+
+<!-- <head></head>
+ Para meter datos que no se ven pero son necesarios 
+ para el funcionamiento de la página (link, title, meta)-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refugio de Animales</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- si no tiene id y no tiene clase, en css se pone el nombre tal cual
-        <header></header> -- header
-        si tiene id se pone hastag # y si tiene clase se pone punto . 
-        <div class="main"></div> -- .main
-        <div id="main"></div> -- #main
-    -->
     
+    <!-- "UTF-8": Especifica que se está utilizando la codificación UTF-8,
+      que es un estándar de codificación de caracteres que puede representar 
+      prácticamente todos los caracteres de todos los idiomas del mundo.
+      Esto incluye letras, números, símbolos y caracteres especiales. -->
+
+    <meta charset="UTF-8">
+    
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  esta etiqueta controla el ancho de la página dependiendo del dispositivo
+  en el que se vea. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <title>Refugio de Animales</title>
+    es el título que te sale en la pestaña -->
+    <title>Refugio de Animales</title>
+
+    <!-- <link rel="stylesheet" href="styles.css"> esto es para que la página sepa que le 
+     estas poniendo estilos a través de un archivo externo (estilos de la página) -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<!-- <body> Es el cuerpo de la página, todo lo que aparezca aquí se verá  -->
+<body> 
+    
+    <!-- si la etiqueta  no tiene id y no tiene clase, en css se pone el nombre 
+     tal cual (ej: <header></header> -- header)
+     si tiene id se pone hastag # (<div id="main"></div> -- #main) 
+     y si tiene clase se pone punto . (<div class="main"></div> -- .main)
+     -->
     <header>
+
+        <!-- <h1></h1>
+         Es una etiqueta que se utiliza para el título -->
         <h1>Bienvenidos al Refugio de Animales</h1>
+
+        <!-- <p></p>
+         Es una etiqueta que se utiliza para párrafos (viene con salto de línea 
+         incorporado) -->
         <p>¡Ayudando a los animales a encontrar un hogar!</p>
     </header>
+
+    <!-- <nav></nav> 
+     Esta etiqueta se utiliza SOLO para la navegación -->
     <nav>
+
+        <!-- <a href="./index.html">Inicio</a>
+         Esta etiqueta es un enlace a la página que se está indicando 
+         en el href-->
+         <!-- "./index.html" 
+          Si pongo ./ me salen todos los archivos que están dentro 
+          de la carpeta-->
         <a href="./index.html">Inicio</a>
         <a href="./amigos.html">Conoce a Nuestros Amigos</a>
         <a href="./contacto.html">Conecta con Nosotros</a>
     </nav>
+
+    <!-- <div></div> Es un contenedor que sirve para tener una estructura
+      clara del html-->
     <div class="main"> 
         <h1>¡Bienvenido a nuestro Refugio Virtual! 🐾</h1>
         <p>¡Adopta, no compres!
             Aquí encontrarás todo lo que necesitas para marcar la diferencia en la vida de los animales que más lo necesitan.
+            
+            <!-- <ul></ul> 
+             Esta etiqueta te hace una lista desordenada (que no te indica la lista con números,
+              sino con puntitos)-->
             <ul>
+
+                
+                <!-- <li></li> 
+                Indica los elementos de la lista-->
                 <li>Descubre y Aprende: En nuestra página de contenido, te compartimos historias inspiradoras, consejos para el cuidado de mascotas y las últimas noticias sobre nuestro refugio.</li>
                 <li>Conoce a Nuestros Amigos: Explora nuestra sección de detalles para conocer a los animales que buscan un hogar lleno de amor. Cada perfil incluye información sobre su historia, personalidad y cuidados especiales.</li>
                 <li>Conecta con Nosotros: ¿Tienes preguntas, deseas colaborar o simplemente necesitas más información? Visita nuestra página de contacto para ponerte en comunicación con nuestro equipo.</li>
@@ -35,7 +85,13 @@
             </ul>
         <a class="cta" href="./amigos.html">Ver animales en adopción</a>
     </div>
+    
+    <!-- <footer></footer> 
+     TODO el pie de la página -->
     <footer>
+        
+        <!-- &copy; 
+         Representa el icóno de copyrights(derechosdecopia)-->
         <p>&copy; 2024 Refugio de Animales. Todos los derechos reservados.</p>
     </footer>
 </body>
